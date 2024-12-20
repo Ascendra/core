@@ -1,0 +1,17 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel --no-autoinstall --no-hmr",
+        "lint": "dprint fmt",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "dprint": "0.47.6",
+        "husky": "9.1.7",
+        "lint-staged": "15.2.11",
+        "parcel": "2.13.3",
+        "typescript": "5.7.2"
+    }
+}
